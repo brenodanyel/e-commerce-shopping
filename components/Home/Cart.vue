@@ -11,12 +11,10 @@ const cartItems = computed(() => {
     };
   });
 });
-
-const visible = ref(true);
 </script>
 
 <template>
-  <q-menu v-model="visible" style="min-width: 30em; width: 750px; max-width: 60em" cover anchor="top left">
+  <q-menu style="min-width: 30em; width: 750px; max-width: 60em" cover anchor="top left">
     <q-card bordered class="q-pa-md">
       <div class="row q-gutter-md justify-between">
         <div class="text-h5">Carrinho</div>
