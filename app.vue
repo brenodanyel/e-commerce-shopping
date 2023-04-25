@@ -15,8 +15,7 @@ body {
   overflow-x: hidden;
 }
 
-.q-btn,
-.q-item {
+.q-btn {
   padding: 0.5rem 1rem !important;
   border-radius: 8px;
 }

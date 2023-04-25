@@ -21,9 +21,6 @@ export default defineNuxtConfig({
         primary: "#0468FC",
         secondary: "#D0BCFF",
       },
-      notify: {
-        position: "top-right",
-      },
     },
     cssAddon: true,
     lang: "pt-BR",
